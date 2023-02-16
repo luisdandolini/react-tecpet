@@ -1,0 +1,48 @@
+.container-dores {
+  background-color: #5B2E9F;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+  padding: 2rem 0;
+}
+
+.container-dores img {
+  width: 436px;
+}
+
+.info-dores {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+}
+
+.info-dores h2 {
+  color: #6FEBFF;
+  font-size: 1.8rem;
+  width: 494px;
+  font-weight: bold;
+  text-align: left;
+  line-height: 28px
+}
+
+.info-dores p {
+  color: #FFFFFF;
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 28px;
+  width: 440px;
+  margin-bottom: 1rem;
+}
+
+.container-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.container-list li {
+  color: #FFFFFF;
+  font-size: 1.125rem;
+  font-weight: 200;
+}
