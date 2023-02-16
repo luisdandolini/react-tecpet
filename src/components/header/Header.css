@@ -1,0 +1,25 @@
+.container-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  /* background-color: #504E8E; */
+}
+
+.logo {
+  width: 250px;
+}
+
+.links {
+  display: flex;
+  gap: 1.5rem;
+  padding-right: 1.5rem;
+  align-items: center;
+}
+
+.links li {
+  background-color: #504E8E;
+  padding: 1rem;
+  color: #FFFFFF;
+  border-radius: 1rem;
+}
