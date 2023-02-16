@@ -50,3 +50,119 @@
 .icon {
   color: #6FEBFF;
 }
+
+.container-agendamento img {
+  width: 400px;
+}
+
+.container-agendamento {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+  gap: 2rem;
+}
+
+.container-about {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.container-agendamento .about {
+  font-size: 1.5625rem;
+  width: 260px;
+  line-height: 30px;
+  color: #545265;
+  font-weight: bold;
+}
+
+.container-agendamento .about span {
+  color: #3E67F5;
+}
+
+.container-agendamento .about-tecpet-text {
+  font-size: 1.5625rem;
+  line-height: 30px;
+  color: #545265;
+  font-weight: bold;
+}
+
+.container-agendamento .about-tecpet-solution {
+  width: 240px;
+  font-size: 1.125rem;
+  line-height: 30px;
+}
+
+.about-list {
+  margin-left: 1rem;
+}
+
+.about-list li {
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+
+.icon-list {
+  color: #545265;
+  font-size: .8rem;
+}
+
+.button-whats {
+  width: 500px;
+  background-color: #00AAA0;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding: 1.2rem 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: .625rem;
+  margin-bottom: 3rem;
+}
+
+.messenger {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
+  background-color: #504E8E;
+}
+
+.messenger img {
+  width: 400px;
+  padding-top: 3rem;
+}
+
+.messenger-text {
+  font-size: 2.25rem;
+  color: #6FEBFF;
+  font-weight: bold;
+  width: 400px;
+  margin-top: 3rem;
+  margin-left: 2rem;
+  line-height: 40.3px;
+}
+
+.messenger-test {
+  font-size: 1.5rem;
+  color: #FFFFFF;
+  width: 350px;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+  line-height: 40.3px;
+  font-weight: bold;
+}
+
+.button-test {
+  background-color: #00AAA0;
+  color: white;
+  width: 370px;
+  padding: 1rem 1.5rem;
+  margin-left: 2rem;
+  font-size: 1rem;
+  text-decoration: none;
+  border-radius: .625rem;
+}
